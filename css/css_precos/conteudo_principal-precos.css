@@ -1,0 +1,283 @@
+.conteudo__principal-precos {  
+    padding:3rem;
+    border-bottom: 1.5px solid whitesmoke;
+    background-color:var(--cor-fundo-conteudo-principal);
+    font-family:var(--fonte-conteudo-principal);
+}
+
+.principal__precos-titulo {
+    font-size: 5rem;
+    margin-top: 1.5rem;
+    color:BurlyWood;
+    letter-spacing: 0.5px;
+    text-shadow: 0.5rem 0.5rem 0.3rem brown;
+    font-style: italic;
+    font-weight: bold;
+    font-variant: small-caps;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+
+.conteudo__principal-precos-container-cards {
+    margin-top: 5.5rem;
+    padding: 1rem;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    row-gap: 5.5rem;
+}
+
+
+
+.principal__preco-card {
+
+    border-radius: 1rem;
+    padding: 2rem;
+    width: 30%;
+    background-color: Peru;
+}
+
+.principal__preco-card:hover {
+    outline:0.3rem solid white;
+    transition: .15s ease-in-out;
+}
+
+
+.principal__preco-card-topo{
+    height: 12rem; 
+}
+
+
+.principal__preco-card-img-produto {
+    border-radius: 100%;
+    width: 110px;
+    height: 100px;
+    float: right;
+    padding: 0.5rem;
+    object-fit: cover;
+
+}
+
+
+.principal__preco-card-nome-bebida {
+    font-size: 2.7rem;
+    margin-top: 1.2rem;
+    letter-spacing: 0.7px;
+    font-variant: small-caps;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+
+}
+
+
+.principal__preco-card-citacao {
+    display: block;
+    font-size: 1.6rem;
+    letter-spacing: 0.3px;
+    text-shadow: 1px 1px 1rem white;
+    font-style: oblique;   
+    margin-top: 1.2rem;
+
+}
+
+
+.principal__preco-card-valor {
+    display: block;
+    color:white;
+    padding-left: 0.2rem;
+    margin-top: 2.7rem;
+    font-size: 2.75rem;
+    letter-spacing: 0.2rem;
+    line-height: 1.2;
+    text-shadow: 0.2rem 0.2rem Maroon;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:480px) {
+
+    .principal__precos-titulo  {
+        font-size: 2.7rem;
+    
+    }
+
+
+
+    .principal__preco-card {
+
+        width: 100%;
+         
+    }
+
+    .principal__preco-card-topo{
+        height: 9rem; 
+    }
+
+
+    .principal__preco-card-img-produto {
+
+        width: 65px;
+        height: 60px;    
+        
+    }
+
+
+    
+    
+    .principal__preco-card-nome-bebida {
+    
+        font-size: 2rem;
+    
+    }
+    
+    
+    .principal__preco-card-citacao {
+        font-size: 1.1rem;
+    
+          
+    }
+
+
+
+    .principal__preco-card-valor {
+
+        font-size: 1.35rem;
+    }
+
+}
+
+
+
+@media screen and (min-width:481px) and (max-width:767px) {
+    
+
+    .principal__precos-titulo  {
+        font-size: 3.3rem;
+    
+    }
+
+
+    .principal__preco-card {
+
+        width: 70%;
+         
+    }
+
+    .principal__preco-card-topo{
+        height: 11rem; 
+    }
+
+    .principal__preco-card-img-produto {
+   
+          width: 80px;
+          height: 70px; 
+    }
+
+
+    
+    .principal__preco-card-nome-bebida {
+    
+        font-size: 2.4rem;
+    
+    }
+    
+    
+    .principal__preco-card-citacao {
+        font-size: 1.3rem;
+    
+          
+    }
+
+
+    .principal__preco-card-valor  {
+
+        font-size: 1.8rem;
+    }
+  
+}
+
+
+@media screen and (min-width:768px) and (max-width:1279px) {
+
+
+    .principal__precos-titulo  {
+        font-size: 3.8rem;
+    
+    }
+
+
+    .principal__preco-card {
+
+
+        width: 41%;
+              
+    }
+
+    .principal__preco-card-topo{
+        height: 11rem; 
+    }
+
+    .principal__preco-card-img-produto {
+       
+       
+        width: 90px;
+        height: 80px; 
+    }
+
+
+    
+    .principal__preco-card-nome-bebida {
+    
+        font-size: 2.45rem;    
+    
+    }
+    
+    
+    .principal__preco-card-citacao {
+        font-size: 1.35rem;   
+    
+          
+    }
+
+    .principal__preco-card-valor  {
+
+        font-size: 2.3rem;  
+    }
+ 
+
+}
+
+

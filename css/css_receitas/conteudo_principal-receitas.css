@@ -1,0 +1,267 @@
+.conteudo__principal-receitas {
+    padding:3rem;
+    border-bottom: 1.5px solid whitesmoke;
+    background-color:var(--cor-fundo-conteudo-principal);
+    font-family:var(--fonte-conteudo-principal);
+}
+
+
+.principal__receitas-titulo {
+    font-size: 4rem;
+    margin-top: 1.5rem;
+    color:BurlyWood;
+    letter-spacing: 0.5px;
+    text-shadow: 0.5rem 0.5rem 0.3rem brown;
+    font-style: italic;
+    font-weight: bold;
+    font-variant: small-caps;
+    text-align: center;
+    padding: 0.5rem;
+   
+
+}
+
+.conteudo__principal-receitas-container-cards {
+    margin-top: 5.5rem;
+    padding: 1.5rem;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    row-gap: 5.5rem;
+
+}
+
+
+.principal__receitas-card {
+    border-radius: 1rem;
+    padding: 1.5rem;
+    width: 30%;
+    background-color: Peru;
+
+}
+
+.principal__receitas-card:hover {
+
+    outline:2px solid whitesmoke;
+    transition: .15s ease-in-out;
+}
+
+
+
+.principal__receitas-card-topo {
+    text-align: center;
+    padding: 0.2rem;
+    height: 24rem;
+    
+}
+
+
+.principal__receitas-card-img-produto {
+    border-radius: 100%;
+    width: 120px;
+    height: 110px;
+    object-fit: cover;
+    
+}
+
+
+.principal__receitas-card-nome-receita {
+
+    font-size: 2.2rem;
+    margin-top: 1.2rem;
+    letter-spacing: 0.3px;
+    font-variant: small-caps;
+    text-shadow: 0.1rem 0.1rem 1rem maroon;
+    text-align: center;
+}
+
+.principal__receitas-card-sobre {
+    margin-top: 1.8rem;
+
+}
+
+
+.principal__receitas-card-saiba-mais {
+    width: 110px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    cursor: pointer;
+
+}
+
+
+
+.principal__receitas-card-sobre-descricao {
+
+    list-style-type: disc;
+    font-size: 1.6rem;
+    margin:1.8rem 0 1.2rem 2.1rem;
+    letter-spacing: 0.5px;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media screen and (max-width:480px) {
+
+    .principal__receitas-titulo {
+        font-size: 2.4rem;
+    
+    }
+
+
+
+    .principal__receitas-card {
+
+        width: 100%;
+         
+    }
+
+    .principal__receitas-card-topo {
+        height: 15rem;
+
+    }
+
+    .principal__receitas-card-img-produto {
+
+        width: 70px;
+        height: 65px;    
+        
+    }
+
+
+    .principal__receitas-card-nome-receita {
+  
+        font-size: 1.7rem;
+     
+    }
+    
+    
+
+    .principal__receitas-card-sobre-descricao {
+
+        font-size: 1rem;
+    }
+
+}
+
+
+
+@media screen and (min-width:481px) and (max-width:767px) {
+    
+
+    .principal__receitas-titulo {
+        font-size: 2.9rem;
+    
+    }
+
+
+    .principal__receitas-card {
+
+        width: 70%;
+         
+    }
+
+    .principal__receitas-card-topo {
+        height: 19rem;
+
+    }
+
+    .principal__receitas-card-img-produto {
+   
+          width: 90px;
+          height: 80px; 
+    }
+
+
+    .principal__receitas-card-nome-receita {
+  
+        font-size: 1.9rem;
+     
+    }
+
+    
+    .principal__receitas-card-sobre-descricao {
+
+        font-size: 1.2rem;
+    }
+  
+}
+
+
+@media screen and (min-width:768px) and (max-width:1279px) {
+
+
+    .principal__receitas-titulo {
+        font-size: 3.5rem;
+    
+    }
+
+
+    .principal__receitas-card {
+
+
+        width: 41%;
+              
+    }
+
+    .principal__receitas-card-img-produto {
+       
+       
+        width: 100px;
+        height: 90px; 
+    }
+
+
+    .principal__receitas-card-nome-receita {
+  
+        font-size: 2.1rem;  
+     
+    }
+    
+
+    .principal__receitas-card-sobre-descricao {
+
+        font-size: 1.4rem;  
+    }
+ 
+
+}

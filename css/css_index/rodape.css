@@ -1,0 +1,107 @@
+.rodape {
+    height: 15rem;
+    padding:3rem;
+    background-color:var(--cor-fundo-rodape);
+    font-family:var(--fonte-rodape);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+       
+}
+
+
+.rodape__secao {
+    padding: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+    color:whitesmoke;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    text-shadow: 0.5rem 0.5rem 0.5rem Maroon; 
+    line-height: 1.2;
+}
+
+
+
+.rodape__secao-sobre {
+
+  font-size: 1.8rem;
+
+}
+
+
+.rodape__secao-autor {
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media screen and (max-width:480px) {
+
+    .rodape__secao-sobre {
+
+        font-size: 1.3rem;
+      
+      }
+      
+      
+      .rodape__secao-autor {
+          font-size: 1rem;
+      }
+ }
+ 
+ 
+ 
+ @media screen and (min-width:481px) and (max-width:767px) {
+     
+    .rodape__secao-sobre {
+
+        font-size: 1.5rem;
+      
+      }
+      
+      
+      .rodape__secao-autor {
+          font-size: 1.2rem;
+      }
+   
+ }
+ 
+ 
+ @media screen and (min-width:768px) and (max-width:1279px) {
+ 
+    .rodape__secao-sobre {
+
+        font-size: 1.6rem;
+      
+      }
+      
+      
+      .rodape__secao-autor {
+          font-size: 1.3rem;
+      }
+ 
+ }

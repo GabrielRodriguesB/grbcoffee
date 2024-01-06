@@ -1,0 +1,342 @@
+.conteudo__principal-home { 
+    padding:3rem;
+    background-color:var(--cor-fundo-conteudo-principal);  
+    font-family:var(--fonte-conteudo-principal);
+    border-bottom: 1.5px solid whitesmoke;
+    
+}
+
+
+
+.principal__home-titulo {
+    font-size: 5rem;
+    margin-top: 1.5rem;
+    color:BurlyWood;
+    letter-spacing: 0.5px;
+    text-shadow: 0.5rem 0.5rem 0.3rem brown;
+    font-style: italic;
+    font-weight: bold;
+    font-variant: small-caps;
+    text-align: center;
+    padding: 0.5rem;
+    
+
+}
+
+
+.conteudo__principal-home-container-cards {
+    margin-top: 5.5rem;
+    padding: 1rem;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    row-gap: 5.5rem;
+
+
+}
+
+
+.principal__home-card {
+
+    border-radius: 10px;
+    padding: 1.5rem;
+    width: 30%;
+    background-color: Peru;
+    
+    
+}
+
+.principal__home-card:hover {
+
+    outline:2px solid whitesmoke;
+    transition: .15s ease-in-out;
+    
+}
+
+
+
+.principal__home-card-topo {
+    
+    height: 5.5rem;
+
+}
+
+
+.principal__home-card-img-produto {
+    border-radius: 100%;
+    width: 110px;
+    height: 100px;
+    float: right;
+    
+      
+}
+
+.principal__home-card-img-produto:hover {
+    border: 5px solid Sienna;
+    transition: .2s ease-in-out;
+    
+}
+
+
+.principal__home-card-texto {
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    color:yellow;
+    font-weight: bold;
+    font-style: italic;
+    
+
+}
+
+
+.principal__home-card-nome-bebida {
+
+    font-size: 2.7rem;
+    margin-top: 1.5vh;
+    letter-spacing: 0.7px;
+    font-variant: small-caps;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+}
+
+
+.principal__home-card-citacao {
+    display: block;
+    font-size: 1.6rem;
+    letter-spacing: 0.3px;
+    text-shadow: 1px 1px 10px white;
+    font-style: oblique;   
+    margin-top: 1.2rem;
+     
+}
+
+
+.conteudo__principal-home-container-cards hr {
+    margin-top: 9.1rem;  
+}
+
+
+.principal__home-card-sobre {
+    margin-top: 1.6rem;
+
+    
+}
+
+
+
+.principal__home-card-saiba-mais {
+    width: 110px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    cursor: pointer;
+    
+    
+
+}
+
+
+.principal__home-card-sobre-descricao {
+    font-size: 1.7rem;
+    margin-top: 1.2rem;
+    letter-spacing: 0.5px;
+    line-height: 1.1;
+    font-style: italic;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media screen and (max-width:480px) {
+
+    .principal__home-titulo {
+        font-size: 2.7rem;
+    
+    }
+
+
+
+    .principal__home-card {
+
+        width: 100%;
+         
+    }
+
+    .principal__home-card-img-produto {
+
+        width: 70px;
+        height: 65px;    
+        
+    }
+
+
+    .principal__home-card-texto {
+  
+        font-size: 1.2rem;
+     
+    }
+    
+    
+    .principal__home-card-nome-bebida {
+    
+        font-size: 2.2rem;
+    
+    }
+    
+    
+    .principal__home-card-citacao {
+        font-size: 1.2rem;
+    
+          
+    }
+
+
+
+    .principal__home-card-sobre-descricao {
+
+        font-size: 1.4rem;
+    }
+
+}
+
+
+
+@media screen and (min-width:481px) and (max-width:767px) {
+    
+
+    .principal__home-titulo {
+        font-size: 3.3rem;
+    
+    }
+
+
+    .principal__home-card {
+
+        width: 70%;
+         
+    }
+
+    .principal__home-card-img-produto {
+   
+          width: 85px;
+          height: 75px; 
+    }
+
+
+    .principal__home-card-texto {
+  
+        font-size: 1.3rem;
+     
+    }
+    
+    
+    .principal__home-card-nome-bebida {
+    
+        font-size: 2.4rem;
+    
+    }
+    
+    
+    .principal__home-card-citacao {
+        font-size: 1.3rem;
+    
+          
+    }
+
+
+    .principal__home-card-sobre-descricao {
+
+        font-size: 1.5rem;
+    }
+  
+}
+
+
+@media screen and (min-width:768px) and (max-width:1279px) {
+
+
+    .principal__home-titulo {
+        font-size: 3.8rem;
+    
+    }
+
+
+    .principal__home-card {
+
+
+        width: 41%;
+              
+    }
+
+    .principal__home-card-img-produto {
+       
+       
+        width: 100px;
+        height: 90px; 
+    }
+
+
+    .principal__home-card-texto {
+  
+        font-size: 1.35rem;  
+     
+    }
+    
+    
+    .principal__home-card-nome-bebida {
+    
+        font-size: 2.45rem;    
+    
+    }
+    
+    
+    .principal__home-card-citacao {
+        font-size: 1.35rem;   
+    
+          
+    }
+
+    .principal__home-card-sobre-descricao {
+
+        font-size: 1.55rem;  
+    }
+ 
+
+}
