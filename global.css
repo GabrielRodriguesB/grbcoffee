@@ -1,12 +1,14 @@
-@import url('css/reset.css');
-@import url('css/normalize.css');
-@import url('css/css_index/cabecalho.css');
-@import url('css/css_index/conteudo_topo-home.css');
-@import url('css/css_index/conteudo_principal-home.css');
-@import url('css/css_index/rodape.css');
-@import url('css/css_precos/conteudo_principal-precos.css');
-@import url('css/css_receitas/conteudo_principal-receitas.css');
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Poppins:wght@500&family=Roboto:wght@500&family=Rubik+Doodle+Shadow&display=swap');
+@charset "UTF-8";
+
+@import url("css/reset.css");
+@import url("css/normalize.css");
+@import url("css/css_index/cabecalho.css");
+@import url("css/css_index/conteudo_topo-home.css");
+@import url("css/css_index/conteudo_principal-home.css");
+@import url("css/css_index/rodape.css");
+@import url("css/css_precos/conteudo_principal-precos.css");
+@import url("css/css_receitas/conteudo_principal-receitas.css");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Poppins:wght@500&family=Roboto:wght@500&family=Rubik+Doodle+Shadow&display=swap");
 
 
 
@@ -14,10 +16,10 @@
 :root {
 
 font-size: 10px; 
---fonte-cabecalho:'Roboto', sans-serif;
---fonte-conteudo-adicional:'Oswald', sans-serif;
---fonte-conteudo-principal:'Poppins', sans-serif;
---fonte-rodape:'Rubik', sans-serif;
+--fonte-cabecalho:"Roboto", sans-serif;
+--fonte-conteudo-adicional:"Oswald", sans-serif;
+--fonte-conteudo-principal:"Poppins", sans-serif;
+--fonte-rodape:"Rubik", sans-serif;
 --cor-fundo-body:saddlebrown;
 --cor-fundo-header:chocolate;
 --cor-fundo-conteudo-adicional:saddlebrown;
